@@ -1,0 +1,232 @@
+.list_nav{
+	width:1190px;
+	height:240px;
+	background:#FFF;
+	margin: 0 auto;
+}
+.list_nav p{
+	width:1190px;
+	height:50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+.list_nav p .brindnike{
+	color:#2164a1;
+	border: 1px dashed #8C8C8C;
+	padding:0 3px;
+	margin:3px 0;
+}
+#outersport{
+	position: relative;
+	border: 1px solid #ccc;
+	margin-right: 3px;
+	padding-right: 3px;
+}
+#outersport a:hover{
+	color: red;
+	
+	
+}
+.forscroll1{
+	position: absolute;
+	top:20px;
+	left: -1px;
+	width:60px;
+	columns: auto;
+	cursor: pointer;
+	padding: 13px;
+	width:45px;
+	outline: 0;
+	height:130px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	border-top: none;
+	color:#8C8C8C;
+	display: none;
+}
+.list_li{
+	width:1190px;
+	height:145px;
+	border: 1px solid #EEE;
+	border-bottom: none;
+}
+.list_li div{
+	height:36px;
+	border-bottom: 1px dashed #EEE;
+}
+.list111{
+	width:80px;
+	line-height: 36px;
+	font-size: 12px;
+	padding: 0 20px;
+	background:#EEE;
+	display: block;
+	text-align: right;
+	float:left;
+}
+.list_li div ul{
+	width:800px;
+	float:left;
+}
+.list_li div ul li{
+	position: relative;
+	float:left;
+	line-height: 36px;
+	margin-left: 30px;
+	font-size: 12px;
+	width:400px;
+
+}
+.list_li div ul li a:hover{
+	color:red;
+}
+.list_li .list_brandlist{
+	position: absolute;
+	border: 1px solid #EEE;
+	background:#FFF;
+	height:100px;
+	padding:20px;
+	left:-2px;
+	display: none;
+}
+.list_brandlist a{
+	display: block;
+	float:left;
+	width:100px;
+}
+.list_2{
+	float:left;
+}
+.sex{
+	width:600px;
+	height:300px;
+	float:left;
+}
+.list_2 .sex li{
+	float:left;
+	width:120px;
+}
+.list_3{
+	float:left;
+	width:1000px;
+}
+.list_4{
+	float:left;
+	width:1000px;	
+}
+.list_li  .list_3 ul li{
+	width:100px;
+	float:left;
+}
+.list_li .list_3 ul {
+	width:800px;
+}
+.list_4 .sex li{
+	width:120px;
+}
+.list_li .colorlist{
+	position: absolute;
+	top:30px;
+	left:-10px;
+	border: 1px solid #EEE;
+	background:url(../img/colorlist.jpg) no-repeat -1px;
+	border-top: none;
+	width:500px;
+	height:120px;
+	display: none;
+	z-index: 100;
+}
+
+.list_shopping {
+	width:1190px;
+	min-height:2900px;
+	border: 1px solid #EEE;
+	margin: 0 auto;
+	margin-top: 10px;
+	background:#FFF;
+}
+
+.list_shopping dl dd em{
+	list-style: none;
+}
+
+.list_shopping dl{
+	float:left;
+	width:224px;
+	height:360px;
+	margin-right: 10px;
+}
+.list_shopping dl dt img{
+	width:228px;
+	height:255px;
+	
+}
+.list_shopping dl dt{
+	width:230px;
+	height:255px;
+	border:1px solid #eee;
+	margin-top:10px;
+	margin-left: 10px;
+	position: relative;
+}
+.list_shopping dl a:hover{
+	color:red;
+}
+.list_shopping dl dt b{
+	font-weight: 100;
+	color:#FFF;
+	display: block;
+	position: absolute;
+	left:0;
+	top:240px;
+	font-size: 12px;
+	width:220px;
+	background:#f0a1a1;
+	padding-left: 10px;
+}
+.list_shopping dl dd{
+	font-size: 14px;
+	color:#e70012;
+	margin-left: 20px;
+}
+.list_shopping dl dd a{
+	font-size: 12px;
+}
+.list_shopping dl dd i{
+	font-size: 12px;
+	text-decoration: line-through;
+	color:#C5C5C5;
+	font-style: normal;
+}
+.tabfanye{
+	width:1190px;
+	height:40px;
+	line-height: 40px;
+	margin:0 auto;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.tabfanye ul{
+	width:300px;
+	height:40px;
+	margin-left: 800px;
+	
+}
+.tabfanye ul li{
+	float:left;
+	width:30px;
+	border: 1px solid #ccc;
+	height:30px;
+	text-align: center;
+	
+}
+.tabfanye ul .nextab{
+	width:60px;
+	margin-left: 10px;
+	border: 1px solid #eee;
+	display: inline-block;
+	height:40px;
+}
+.fenyeactive{
+	background:#EEE;
+}

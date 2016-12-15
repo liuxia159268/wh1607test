@@ -1,0 +1,186 @@
+.shopping_cart_title{
+	width:1190px;
+	height:50px;
+	margin: 0 auto;
+	margin-top: 20px;
+
+	
+}
+
+.shopping_cart_title h2{
+	float:left;
+	width:400px;
+	height:40px;
+	margin-right: 90px;
+}
+.shopping_cart_title ul{
+	float:left;
+	width:700px;
+	margin-top: 30px;
+	padding:0;
+}
+.shopping_cart_title ul li{
+	float:left;
+	width:200px;
+	height:22px;
+	font-size: 14px;
+	text-align: center;
+	background:#EEE;
+
+}
+.shopping_cart_title .now{
+	background:orange;
+	color:#FFF;
+}
+.shopping_cart_title ul li b{
+	margin-left: 100px;
+	color:#FFF;
+	display: inline-block;
+	font-size: 16px;
+}
+.shopping_cart_box{
+	min-height: 200px;
+	border: 1px solid #EEE;
+	width:1190px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.nothing{
+	padding-left:500px;
+	width:1190px;
+	height:200px;
+	display: block;
+	background:url(../img/QQ图片20161212173242.png) 400px 0 no-repeat;
+}
+.nothing p{
+	margin-top:20px ;
+	line-height: 20px;
+	font-size: 12px;
+}
+.shopping_cart_box{
+	margin-bottom: 30px;
+}
+.nothing p a{
+	color:blue;
+}
+.shengming{
+	text-align: center;
+	width:1190px;
+	margin:0 auto;
+	margin-top: 20px;
+	height:50px;
+	line-height: 50px;
+	font-size: 14px;
+}
+.nothing p a:hover{
+	color:red;
+}
+.nothing input{
+	width:100px;
+	height:35px;
+	border: 2px solid orange;
+	background:linen;
+	font-weight: 800;
+	color:#666666;
+	margin-top: 20px;
+}
+.nothing input:hover{
+	color:red;
+}
+.has{
+	width:1190px;
+	border-color:#eee ;
+	text-align: center;
+	border: 1px solid #EEE;
+}
+.footforbuy{
+	width:1190px;
+	height:35px;
+	line-height: 35px;
+	font-size: 12px;
+}
+.footforbuy li{
+	float:left;
+	margin-left: 30px;
+}
+.has {
+	font-size: 12px;
+	color:#666;
+	border: none;
+	border: 1px solid #EEE;
+}
+.has tr{
+line-height: 30px;
+height:60px;
+}
+.oneprice{
+	width:80px;
+}
+table thead{
+	border: 1px solid #EEE;
+	
+}
+.goods img{
+	width:60px;
+	height:60px;
+	border: 1px solid #EEE;
+}
+.short{
+	width:60px;
+}
+.goodsprice{
+	width:100px;
+	font-size: 14px;
+	color:red;
+}
+.goodsnum input{
+	width:30px;
+	height:30px;
+	background:none;
+	border: 1px solid #EEE;
+}
+.goodsnum .goodnumer{
+	width:50px;
+	height:26px;
+}
+.deletegood{
+	width:80px;
+}
+.countcount{
+	width:1190px;
+	height:35px;
+	line-height: 35px;
+	font-size: 14px;
+	
+}
+.countcount .count1{
+	width:90px;
+	height:35px;
+	border:1px solid orange;
+	background:lightgoldenrodyellow;
+	display: inline-block;
+	text-align: center;
+	margin-left: 30px;
+}
+.countcount .count2{
+	color:blue;
+	margin-left: 30px;
+	font-size: 12px;
+}
+.count3{
+	margin-left:500px;
+}
+.count3 a{
+	font-size: 18px;
+	color:red;
+	margin-left: 10px;
+}
+.countcount .count4{
+	width:100px;
+	height:35px;
+	background:red;
+	display: inline-block;
+	text-align: center;
+	margin-left: 80px;
+	color:#FFF;
+}

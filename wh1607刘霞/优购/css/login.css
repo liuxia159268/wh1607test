@@ -1,0 +1,355 @@
+.outer{
+	width:100%;
+	background:#FFF;
+	height:80px;
+}
+.login_logo{
+	width:1190px;
+	height:80px;
+	margin:0 auto;
+	background:#FFF;
+}
+h1{	
+	width:150px;
+	height:60px;
+	float:left;
+	border-right:2px solid #EEE ;
+}
+h1 img{
+	display: block;
+	width:150px;
+	height:60px;
+}
+.login_logo p{
+	width:100px;
+	height:100px;
+	float:left;
+	line-height: 100px;
+	font-size: 18px;
+	margin-left:40px;
+}
+.yg{
+	margin:0 auto;
+	width:1600px;
+	height:550px;
+	background:url(../img/loginbg.jpg) no-repeat right center;
+}
+.loginfoot{
+	width:1190px;
+	height:50px;
+	line-height: 50px;
+	font-size: 12px;
+	margin:0 auto;
+}
+.loginfoot p{
+	text-align: center;
+}
+.loginfoot p a:hover{
+	color:red;
+}
+.yg_login{
+	top:120px;
+	right:20px;
+	width:350px;
+	height:380px;
+	background:#FFF;
+	position: absolute;
+	display: block;
+}
+.yg_login .forget{
+	font-size: 12px;
+	text-decoration:underline ;
+	color:black;
+	margin-top: 30px;
+	margin-left: 250px;
+	display: block;
+}
+.yg_login .clicklogin{
+	width:300px;
+	height:40px;
+	line-height: 40px;
+	color:#FFF;
+	background:#e71216;
+	text-align: center;
+	padding:0;
+	font-size: 16px;
+	margin-top:3px;
+}
+.yg_login input{
+	width:250px;
+	height:30px;
+	margin-top:20px;
+	margin-left: 20px;
+	border: 1px solid #E3E2E2;
+	padding-left:50px;
+}
+.yg_login p{
+	font-size: 12px;
+	text-align: center;
+	margin-top:20px;
+}
+#username{
+	background:url(../img/user.jpg) no-repeat 10px center;
+
+}
+#password{
+	background:url(../img/password.jpg) no-repeat 10px center;
+
+}
+.yg_box{
+	position: relative;
+	width:400px;
+	height:500px;
+	background:#fff;
+	right:-900px;
+	top:20px;
+	
+}
+#login_box{
+	position: absolute;
+	top:50px;
+	right:20px;
+	border-bottom: 1px solid #EEE;
+	width:300px;
+	height:50px;
+	padding-left:40px;
+}
+#login_box a{
+	margin-right:20px;
+	background:#EEE;
+	width:100px;
+	text-align: center;
+	height:40px;
+	line-height: 40px;
+	display: block;
+	float:left;
+	font-size: 12px;
+	
+}
+#login_box a:hover{
+	color:red;
+}
+#login_box .loginactive:hover{
+	color:#FFF;
+}
+#login_box .loginactive{
+	background:#262626;
+	color:#FFF;
+}
+.yg_login p p{
+	text-align: center;
+	font-weight: 100;
+	font-size: 12px;
+	color:#EEEEEE;
+	margin-bottom: 0px;
+}
+.yg_login p{
+	pading-left:40px;
+}
+.cop_link {
+    margin-top: 5px;
+    text-align: center;
+}
+.cop_link a {
+    line-height: 54px;
+    padding: 9px 16px;
+    margin: 0 5px;
+}
+.nreg_qq, .nreg_zpay, .nreg_sina, .we_chat, .nreg_input_bg i, i.tab_nreg, .errortips, .ver_code, .dialogSkin3 .uiClose {
+    background: url("../img/icon_sig_reg.png") no-repeat;
+}
+.we_chat {
+    background-position: -37px -21px;
+}
+.nreg_zpay {
+    background-position: -73px -21px;
+}
+.nreg_qq {
+    background-position: -110px -22px;
+}
+.nreg_sina {
+    background-position: -37px -57px;
+}
+.nreg_people {
+    background-position: -73px -21px;
+}
+
+
+.yg_register{
+	top:120px;
+	right:0;
+	width:400px;
+	height:390px;
+	background:#FFF;
+	display: none;
+	position: absolute;
+}
+.yg_register input{
+	width:200px;
+	height:25px;
+	margin-top: 7px;
+	font-size: 12px;
+	padding-left: 40px;
+	border: 0;
+	outline: 0;
+	float:left;
+}
+.inp1{
+	padding:0;
+	border: 1px solid #EEE;
+	width:300px;
+	height:35px;
+	margin-left: 50px;
+	line-height:20px;
+
+}
+.inp2{
+	padding:0;
+	border: 1px solid #EEE;
+	width:200px;
+	height:35px;
+	margin-left: 50px;
+	line-height:20px;
+	margin-top: 20px;
+}
+.inp3{
+	padding:0;
+	border: 1px solid #EEE;
+	width:200px;
+	height:40px;
+	margin-left: 50px;
+	line-height:20px;
+	margin-top: 15px;
+	float:left;
+}
+.inp4{
+	padding:0;
+	border: 1px solid #EEE;
+	width:300px;
+	height:40px;
+	margin-left: 50px;
+	line-height:20px;
+	margin-top: 75px;
+}
+.inp5{
+	padding:0;
+	border: 1px solid #EEE;
+	width:300px;
+	height:40px;
+	margin-left: 50px;
+	line-height:20px;
+	margin-top: 20px;
+	
+}
+
+.inp3 input{
+	width:100px;
+}
+
+.inp2 input{
+	width:100px;
+}
+.inp2 span{
+	display: block;
+	width:90px;
+	height:40px;
+	background:lightgray;
+	text-decoration: line-through;
+	margin-left: 210px;
+} 
+#checkcon{
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color:blue;
+	font-weight: 900;
+	
+}
+#getcheck2{
+	width:80px;
+	margin:15px;
+	height:40px;
+	padding:0;
+	background:#010101;
+	color:#FFF;
+}
+label{
+	color: black;
+	font-size: 12px;
+	margin-left: 10px;
+	float:left;
+	margin-top: 12px;
+	height:20px;
+	width:40px;
+}
+#checkbox1{
+	width:10px;
+	height:10px;
+
+}
+#checker{
+	margin-left: 100px;
+	margin-top: 20px;
+	font-size: 12px;
+	line-height: 22px;
+}
+#checker a{
+	color:red;
+}
+#regist{
+	width:300px;
+	height:40px;
+	background:#e71216;
+	line-height: 40px;
+	text-align: center;
+	color:#FFF;
+	font-size: 16px;
+	margin-left: 50px;
+		
+}
+#inp11{
+	width:100px;
+	height:20px;
+	margin-top: 36px;
+	margin-left:20px;
+	color:red;
+	font-size: 12px;
+}
+#inp22{
+	width:100px;
+	height:20px;
+	margin-top:-5px;
+	margin-left:20px;
+	color:red;
+	font-size: 12px;
+}
+#inp33{
+	width:100px;
+	height:20px;
+	margin-top:42px;
+	margin-left:20px;
+	color:red;
+	font-size: 12px;
+}
+#inp44{
+	width:200px;
+	height:20px;
+	margin-top:45px;
+	margin-left:20px;
+	color:red;
+	font-size: 12px;
+}
+#inpu66{
+	color:red;
+	margin-left: 40px;
+	margin-top: 3px;
+	font-size: 12px;
+	height:15px;
+}
+#inpu77{
+	color:red;
+	margin-left: 40px;
+	margin-top: 3px;
+	font-size:12px;
+	height:15px;
+}

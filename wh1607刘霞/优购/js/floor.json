@@ -1,0 +1,44 @@
+{
+	"f1":{
+		"h3":"运动馆",
+		"span":"soprt",
+		"title":"img/29fe783d812a41619e681008ab90c10c.jpg",
+		"bigimg":"img/floor1.jpg",
+		"fleft_list":["img/lining507645232.jpg","img/adidas506399348.jpg","img/columbia507642261.jpg","img/lining507645232.jpg","img/adidas506399348.jpg","img/converse506750560.jpg","img/cat507636509.jpg","img/chums507603735.jpg"],
+		"fright_list":["img/426131257506493bad13742b7674c7eb.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/447004181eaf4e8c9f1c9905c8180152.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/426131257506493bad13742b7674c7eb.jpg","img/c8e8bac7aac34ad282cab495d31966e4.jpg"]
+		},
+	"f2":{
+		"h3":"女鞋馆",
+		"span":"women shoes",
+		"title":"img/d62afddba1d641ea9d5493a6d7b7a4f9.jpg",
+		"bigimg":"img/floor2.jpg",
+		"fleft_list":["img/belle507639379.jpg","img/adidas506399348.jpg","img/adidas506399348.jpg","img/biliwili487677140.jpg","img/beyondcloset493099739.jpg","img/adidas506399348.jpg","img/adidas506399348.jpg","img/bostanten464177848.jpg"],
+		"fright_list":["img/f9aaec59ff684c4786b957d066a6da3a.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/f99fde0d3fd14879be08fc178d7f6cef.jpg","img/facbcda4754d464da3e21ca58bc2a722.jpg","img/e181ba15891d47ec8192acdbdac78523.jpg","img/f99fde0d3fd14879be08fc178d7f6cef.jpg"]
+		},
+	"f3":{
+		"h3":"户外馆",
+		"span":"outerdoor",
+		"title":"img/ec3a95ef0cd64c8e8e86de07b69fd66c.jpg",
+		"bigimg":"img/f989cded454c45baa794a4d294fd1076.jpg",
+		"fleft_list":["img/mamzelle502364537.jpg","img/merrell507697299.jpg","img/adidas506399348.jpg","img/lining507645232.jpg","img/mafemato475902590.jpg","img/markfairwhale506403575.jpg","img/markfairwhale506403575.jpg","img/millies527742673.jpg"],
+		"fright_list":["img/b38daebb5f094b71944c9c5022f483ba.jpg","img/d9908bac35ce44ce8d5adbfd2cd74dc6.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/fd9a1914d1e44d07a06d5718e209fc54.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/fc18b00f63b146d891daeb59eece54f4.jpg"]
+		},
+	"f4":{
+		"h3":"首尔站",
+		"span":"seoul station",
+		"title":"img/619915d188bd4f71a157c43236b7017f.jpg",
+		"bigimg":"img/c6240fd02a704ffeadf7cff8090f900a.jpg",
+		"fleft_list":["img/belle507639379.jpg","img/uspoloassn507645740.jpg","img/viishow466483366.jpg","img/biliwili487677140.jpg","img/beyondcloset493099739.jpg","img/thermos507806138.jpg","img/adidas506399348.jpg","img/bostanten464177848.jpg"],
+		"fright_list":["img/0fb563dfa5214ab099948952bad4bed9.jpg","img/4a3c3709c6ee4deda8541648a7111e51.jpg","img/d002bae2054e408fb853461a3f94c352.jpg","img/8265fe89a91e4c1fae09acc67d3e9c3d.jpg","img/1fd492ff5c1e40f3bee3dad815648e70.jpg","img/08c8c8edca08420ca0341eeb9b95fac2.jpg"]
+		},
+	"f5":{
+		"h3":"孕婴童",
+		"span":"children’s",
+		"title":"img/4710e00d26a246e9abbac171fdfdc93f.jpg",
+		"bigimg":"img/974fd0c8b1474b77933585959b7b75d8.jpg",
+		"fleft_list":["img/toyouth507640027.jpg","img/thermos507806138.jpg","img/adidas506399348.jpg","img/lining507645232.jpg","img/paulfrank507640225.jpg","img/staccato507605520.jpg","img/tanboer507606760.jpg","img/patagonia487050070.jpg"],
+		"fright_list":["img/4205f1f9aef048c3ac843d845fea756a.jpg","img/4a3c3709c6ee4deda8541648a7111e51.jpg","img/a48e61461d7a41e0b3b5ce29c431adf5.jpg","img/101f6ace87c54d3080088037d421b276.jpg","img/1fd492ff5c1e40f3bee3dad815648e70.jpg","img/239b9031d03441d8964056d8cf3d1a81.jpg"]
+		}
+		
+	
+}

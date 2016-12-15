@@ -1,0 +1,444 @@
+.right_nav{
+	width:40px;
+	height:290px;
+	position: fixed;
+	right:20px;
+	top:200px;
+	border: 1px solid #EEE;
+	text-align: center;
+}
+.activer{
+	background:red;
+}
+.right_nav .activer a{
+	color:#FFF;
+}
+.totop{
+	background:black;
+}
+.right_nav .totop a{
+	color:#FFF;
+}
+.right_nav li{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.right_nav li a{
+	margin-top:5px;
+	color:black;
+	font-size: 12px;
+	font-weight: 900;
+}
+.naver{
+	width:100%;
+	height:40px;
+	border-bottom: 3px solid black;
+}
+.navigation{
+	width:1190px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+.navigation .active a{
+	width:200px;
+	height:40px;
+	color:#FFF;
+	background:black;
+	display: block;
+}
+.navigation .active a:hover{
+	color: #FFF;
+}
+.navigation li a{
+	float: left;
+	margin-right: 40px;
+	font-weight: 900;
+	color:black;
+}
+.navigation li a:hover{
+	color:red;
+}
+.left_nav{
+	width:198px;
+	height:480px;
+	border:1px solid #ccc;
+	border-top: none;
+	z-index: 100;
+	background:#f5f5f5;
+	padding:0;
+}
+
+.left_nav li a:hover{
+	color:#FFF;
+	text-decoration: underline;
+	background:gray;
+}
+
+.righter_nav{
+				width:200px;
+				height:480px;
+				display: none;
+				position: absolute;
+				border: 2px solid #eee;
+				background:#fff;
+				left:199px;
+				top:0;
+			}
+			.righter_nav h6{
+				line-height: 20px;
+				text-align: center;
+				margin-top:15px;
+				background:lightgray;
+				width:100px;
+				margin-left:50px;
+				height:20px;
+			}
+			.righter_nav i{
+				font-style: normal;
+				font-size:12px;
+				margin-left:20px;
+				background:#FFF;
+			}
+			.left_nav{
+				position: relative;
+			}
+			.ac{
+				padding: 10px;
+			}
+		.ac a{
+			color: #gray;
+			font-size:12px;
+			margin:10px;
+		}
+
+
+
+
+.banner{
+	width:1190px;
+	height:480px;
+	margin:0 auto;
+	z-index: 0;
+	position: relative;
+}
+.banner .left_nav li{
+	width:158px;
+	height:48px;
+	padding:10px;
+	padding-left: 30px;
+}
+.left_nav{
+	float:left;
+}
+h5{
+	width:120px;
+	color:black;
+	margin-bottom: 5px;
+}
+.left_nav li p span{
+	font-size:12px;
+	margin-right:6px;
+	
+}
+.carousel{
+	width:990px;
+	height:480px;
+	overflow: hidden;
+	float:right;
+}
+.carousel_icon{
+	position: absolute;
+	bottom:50px;
+	right:50px;
+}
+.carousel_icon li{
+	float:left;
+	margin-right: 20px;
+	text-align: center;
+	background:black;
+	width:20px;
+	height:20px;
+	border-radius: 50%;
+	line-height: 20px;;
+}
+.carousel_icon li a{
+	color:#FFF;
+}
+
+.carousel_icon .active_banner_icon{
+	background:red;
+}
+/*  热门品牌展示*/
+
+
+h3{
+	color: black;
+	margin: 0 auto;
+	margin-top:30px;
+	height:40px;
+	line-height: 40px;
+	width:1190px;
+	border-bottom: 3px solid black;
+}
+h3 span{
+	margin-left: 10px;
+	font-weight: 100;
+}
+.hotbrand{
+	margin-bottom: 1250px;
+	width:1150px;
+	height:520px;
+	border: 1px solid #EEE;
+	background:#FFF;
+	margin:0 auto;
+	padding: 20px;
+	
+}
+.hot{
+	padding-left:2px;
+}
+.hot .brandshow li{
+	float:left;
+	margin-right: 20px;
+}
+.brandshow{
+	height:350px;
+}
+#container_1{
+	position: relative;
+}
+#left_button{
+	width:30px;
+	height:80px;
+	line-height: 80px;
+	font-size:40px;
+	position: absolute;
+	top:20px;
+	cursor: pointer;
+}
+#right_button{
+	width:30px;
+	height:80px;
+	line-height: 80px;
+	font-size:40px;
+	position: absolute;
+	top:20px;
+	right:20px;
+	cursor: pointer;
+}
+.brindcontainer{
+	width:1100px;
+	height:150px;
+	overflow: hidden;
+
+}
+.brind_list{
+	width:2320px;	
+	height:150px;
+	
+}
+.brind_list li{
+	padding:10px;
+	padding-left:25px;
+}
+.brind_list li a{
+	margin-right:20px;
+}
+h3 a{
+	display: block;
+	float:right;
+	width:118px;
+	height:40px;
+	background:black;
+	color:#FFF;
+	text-align: center;
+	line-height: 40px;
+}
+h3 a:hover{
+	color:red;
+}
+
+
+/*floor_1*/
+.floor_1{
+	width:1190px;
+	height:480px;
+	border: 1px solid #EEE;
+	background:#FFF;
+	margin:0 auto;
+}
+.f-titler{
+	    height: 67px;
+    margin-bottom: 8px;
+}
+.floor-left{
+	width:200px;
+	height:430px;
+	padding:15px;
+	float:left;
+}
+.fleft_list{
+	width:190px;
+	height:360px;
+	padding-left:10px;
+}
+.fleft_list li a{
+	margin-top:20px;
+	display: block;
+	float:left;
+}
+.floor-right{
+	float:left;
+	width:950px;
+	height:430px;
+}
+#f-right1{
+	float:left;
+	width:360px;
+	height:430px;
+	padding-top:15px;
+	
+}
+#right-list{
+	padding-top:15px;
+	padding-left:10px;
+}
+.tab_brind{
+	width:1190px;
+	height:365px;
+	background:#FFF;
+	border: 1px solid #EEE;
+	margin:0 auto;
+	margin-top: 50px;
+}
+.tab_brind .tabtab{
+	width:210px;
+	height:365px;
+	float:left;
+}
+.tab_brind .tabtab li{
+	width:180px;
+	padding-left:30px ;
+	height:40px;
+	line-height: 40px;
+	border: 1px solid #EEE;
+}
+.activetab{
+	background:#000000;
+}
+.tab_brind .tabtab .activetab a{
+	color:#FFF;
+}
+.tab_brind .tabtab li a i{
+	margin-left: 80px;
+	font-style: normal;
+}
+.fortab li{
+	display:none;
+}
+.fortab .tabshow{
+	display: block;
+}
+li dl{
+	float:left;
+	width:230px;
+	height:360px;
+	margin-right: 10px;
+}
+li dl dt img{
+	width:228px;
+	height:255px;
+	
+}
+li dl dt{
+	width:230px;
+	height:255px;
+	border:1px solid #eee;
+	margin-top:10px;
+	margin-left: 10px;
+	position: relative;
+}
+li dl dt b{
+	font-weight: 100;
+	color:#FFF;
+	display: block;
+	position: absolute;
+	left:0;
+	top:240px;
+	font-size: 12px;
+	width:220px;
+	background:#f0a1a1;
+	padding-left: 10px;
+}
+li dl dd{
+	font-size: 14px;
+	color:#e70012;
+	margin-left: 20px;
+}
+li dl dd a{
+	font-size: 12px;
+}
+li dl dd i{
+	font-size: 12px;
+	text-decoration: line-through;
+	color:#C5C5C5;
+	font-style: normal;
+}
+.bottom_fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 159px;
+    z-index: 99999999999;
+}
+.wrap946 {
+    position: relative;
+    width: 946px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.mt30 {
+    margin-top: 30px;
+}
+
+.bg_fixed {
+    background: url(http://i1.ygimg.cn/pics/shop/zhu_zhan/index/bj-fixed.png) repeat top left;
+}
+.app-btn .ipone-app {
+    background-position: top left;
+}
+.app-btn a {
+    width: 146px;
+    height: 39px;
+    display: block;
+    background: url(http://i1.ygimg.cn/pics/shop/zhu_zhan/index/app-btn.png);
+}
+.app-btn a {
+    width: 146px;
+    height: 39px;
+    display: block;
+    background: url(http://../img/app-btn.png);
+}
+.erweima-bj {
+    position: absolute;
+    top: -115px;
+    right: 148px;
+    width: 261px;
+    padding: 28px 0 0 10px;
+    background: url(http://i1.ygimg.cn/pics/shop/zhu_zhan/index/erweima-bj.png) no-repeat top left;
+}
+.erweima-bj a {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}

@@ -1,0 +1,404 @@
+.locat{
+	width:1190px;
+	height:30px;
+	line-height: 30px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.locat a{
+	color:#3366cc;
+}
+.good_detail{
+	width:1190px;
+	height:650px;
+	margin: 0 auto;
+}
+.biggood{
+	width:480px;
+	height:480px;
+	position: relative;
+	border:1px solid #ccc;
+	
+}
+.biggood .mover{
+	width:100px;
+	height:100px;
+	background:gray;
+	opacity: 0.1;
+	position: absolute;
+	left:0;top:0;
+	display: none;
+	cursor:crosshair;
+}
+.biggood .big_picer{
+	position: absolute;
+	
+	height:480px;
+	height:480px;
+	border: 1px solid #EEE;
+}
+.biggood li a {
+	display: block;
+	width:480px;
+	height:480px;
+}
+.biggood li a img{
+	width:480px;
+	height:480px;
+}
+.biggood  li{
+	width:480px;
+	height:480px;
+	display: none;
+}
+.biggood .shower{
+	display: block;
+}
+
+.biggergood{
+	position: absolute;
+	left:500px;
+	top:0;
+	border: 1px solid #EEE;;
+	width:480px;
+	height:480px;	
+	overflow: hidden;
+	z-index: 100000;
+	background:#FFF;
+	
+}
+
+.smallgood{
+	width:480px;
+	height:60px;
+	margin-top:15px;
+	padding-left:3px;
+}
+.smallgood li{
+	width:63px;
+	height:63px;
+	border:1px solid #ccc;
+	margin-right: 3px;
+	float:left;
+}
+.goodid{
+	padding:0;
+	height:50px;
+	font-size: 12px;
+	width:480px;
+	line-height: 50px;
+}
+.share{
+	margin-left:220px;
+	margin-right: 20px;
+	width:40px;
+	padding-left: 20px;
+	height:20px;
+}
+.leftgood{
+	float:left;
+}
+.titlegood{
+	padding-left: 20px;
+}
+.centergood{
+	width:500px;
+	height:600px;
+	float:left;
+	font-weight: 900;
+}
+.goodmore a{
+	margin-left:20px;
+	text-decoration: underline;
+	color:#3366cc;;
+	font-size: 12px;
+}.goodmore a:hover{
+	color:red;
+}
+.goodmore{
+	margin-top: 20px;
+}
+.goodprice{
+	color:#e60012;
+	height:90px;
+	line-height: 90px;
+	font-size: 40px;
+	padding-left: 20px;
+}
+.goodprice i{
+	color:#ccc;
+	font-size: 12px;
+	text-decoration: line-through;
+	margin-left: 20px;
+	font-style: normal;
+}
+
+.Concessions{
+	height:50px;
+	line-height: 50px;
+	padding-left: 20px;
+	font-size: 12px;
+}
+.Concessions span{
+	background:red;
+	color:#FFF;
+	margin-right: 20px;
+}
+
+.Concessions i{
+	color:#ff5000;
+	font-size: 26px;
+	font-weight: 800;
+	font-style: normal;
+}
+.Concessions b{
+	color:#e60012;
+	margin-left: 3px;
+}
+.Concessions a{
+	margin-left: 30px;
+	color:#3366cc;
+}
+
+.appraise{
+	padding-left: 20px;
+	font-weight: 100;
+	font-size: 12px;
+	height:40px;
+	line-height:40px;
+}
+.appraise b{
+	font-weight: 100;
+	margin-left: 130px;
+	color:#3366cc;
+}
+.appraise a{
+	margin-left: 130px;
+	color:red;
+}
+.goodsize{
+	width:480px;
+	height:260px;
+	margin-left: 20px;
+	background:#f8f8f8;
+	position: relative;
+}
+.sizer{
+	font-size: 14px;
+	padding-left: 20px;	
+	color:#666666;
+	height:40px;
+	line-height: 50px;
+	
+}
+.sizer2{
+	font-size: 14px;
+	padding-left: 20px;
+	color:#666666;
+	height:100px;
+	margin-top:30px;
+	width:300px;
+	line-height: 60px;
+	
+}
+.sizer2 li{
+	float:left;
+	margin-left:20px;
+	border:1px solid #ccc;
+	margin-top: 20px;
+	width:40px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	background:#FFF;
+}
+.sizer2 .activesize{
+	margin-left: 0;
+	padding:0;
+	border: 0;
+	background:#F8f8f8;
+}
+.erweima{
+	position: absolute;
+	right:0;
+	bottom: 0;
+}
+.sizer a {
+	width:40px;
+	height:40px;
+	border: 1px solid #EEE;
+	display:inline-block;
+	margin-top: 20px;
+}
+
+.numer{
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+.numer input{
+	width:16px;
+	height:16px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 60px;
+}
+.numer a{
+	color:#e60012;
+}
+#buy{
+	width:120px;
+	height:35px;
+	background:#FFF;
+	border: 1px solid #e60012;
+	margin-top: 20px;
+	margin-left: 20px;
+	color:#e60012;
+}
+.goodlocation{
+	padding-left:20px;
+	font-size:12px;
+	margin-top:10px;
+	color:#999999;
+}
+.seivers{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+#forbuy{
+	width:150px;
+	height:35px;
+	background:#e60012;
+	border: none;
+	color:#FFF;
+	font-size: 12px;
+	margin-left: 10px;
+}
+
+.rightgood{
+	width:150px;
+	height:600px;
+	float:left;
+	text-align: center;
+	padding-left: 20px;
+	
+}
+.rightgood ul li{
+	margin-bottom: 10px;
+}
+.rightgood button{
+	border: none;
+	width:40px;
+	height:40px;
+	background:#f8f8f8;
+	font-size: 26px;
+	margin: 15px;
+}
+.others{
+	width:1190px;
+	height:285px;
+	border: 1px solid #EEE;
+	margin:0 auto;
+}
+.others p{
+	font-size: 12px;
+	padding-left: 10px;
+	line-height: 15px;
+	margin-top: 3px;
+}
+.others .othersbuy dl{
+	margin: 0;
+	padding: 0;
+	height:230px;
+	width:180px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.others .othersbuy dl dt img{
+	width:150px;
+	height:120px;
+}
+.others .othersbuy dl dt{
+	margin-top: 25px;
+	width:150px;
+	height:120px;
+	border:0;
+}
+.others .othersbuy dl dd{
+	line-height: 20px;
+	margin-top:15px;
+}
+.others .othersbuy dl a:hover{
+	color:red;
+}
+.others .othersbuy dl dd i{
+	font-weight: 800;
+	color:red;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.others .othersbuy dl dd span{
+	text-decoration: line-through;
+}
+.comment{
+	width:1190px;
+	min-height: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.left_comment ul{
+	width:960px;
+	height:35px;
+	font-size: 14px;
+	border-bottom:3px solid #cc0011 ;
+}
+.left_comment{
+	float:left;
+}
+.right_comment{
+	float:right;
+	width:200px;
+	border: 1px solid #EEE;
+	font-size: 12px;
+	padding-left: 20px;
+}
+.right_comment p{
+	font-size: 12px;
+	line-height: 35px;
+	text-align: justify;
+	border-bottom: 1px solid #EEE;
+}
+.left_comment ul li{
+	float:left;
+	width:96px;
+	height:34px;
+	border: 1px solid #EEE;
+	line-height: 35px;
+	text-align: center;
+	border-bottom: none;
+	
+}
+.left_comment ul .activcommon a{
+	color:#FFF;
+}
+.left_comment .activcommont{
+	background:#cc0011 ;
+}
+.left_comment{
+	width:960px;
+	min-height: 500px;
+}
+.right_comment dl dd{
+	line-height: 20px;
+	margin-top:15px;
+}
+.right_comment dl dd i{
+	font-weight: 800;
+	color:red;
+	font-size: 16px;
+	font-style: normal;
+	margin-right: 10px;
+}
+.right_comment dl dd span{
+	text-decoration: line-through;
+}

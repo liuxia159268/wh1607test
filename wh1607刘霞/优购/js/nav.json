@@ -1,0 +1,178 @@
+
+
+{
+    "nav1":
+    {
+        "title1":"运动",
+        "title1_part":["户外","运动鞋","夹克","长裤"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"运动鞋",
+        				"sport_part":["跑步鞋   休闲鞋   户外鞋   球鞋   篮球鞋"]
+        				},
+        
+        				{
+        				"sport_title":"运动服",
+        				"sport_part":["夹克 卫衣  羽绒服   棉服    长裤   紧身衣"]
+        				},
+        				{
+        				"sport_title":"运动包配",
+        				"sport_part":["双肩包   单肩包   斜挎包   袜子   球类   装备"]
+        				},
+        				{
+        				"sport_title":"热门品牌",
+        				"sport_part":["耐克  阿迪达斯   三叶草  匡威   万斯  彪马  阿迪NEO  李宁  NB"]
+        				}
+       
+        				]
+    },
+    "nav2":
+    {
+        "title1":"户外",
+        "title1_part":["冲锋衣","T恤","皮肤衣","休闲裤"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"热卖品牌",
+        				"sport_part":["乐斯菲斯","狼爪","CAT","哥伦比亚"]
+        				},      
+        				{
+        				"sport_title":"户外服装",
+        				"sport_part":["皮肤衣","长袖T恤","抓绒衣","冲锋衣","卫衣","休闲裤","羽绒服","速干裤"]
+        				},
+        				{
+        				"sport_title":"户外鞋靴",
+        				"sport_part":["登山鞋","徒步鞋","溯溪鞋","冲锋衣","休闲鞋","越野鞋","凉拖鞋"]
+        				},
+        				{
+        				"sport_title":"户外包配",
+        				"sport_part":["户外包","辅助工具","配件"]
+        				}
+        				]
+    },
+    "nav3":
+    {
+        "title1":"女鞋/男鞋",
+        "title1_part":["冬靴","冬季新品","休闲男鞋","徒步鞋"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"运动鞋",
+        				"sport_part":["跑步鞋" ,"篮球鞋", "板鞋" ,"帆布鞋", "训练鞋","休闲鞋","户外鞋"]
+        				},
+        
+        				{
+        				"sport_title":"运动服",
+        				"sport_part":["夹克", "卫衣","羽绒服","棉服","长裤","紧身衣"]
+        				},
+        				{
+        				"sport_title":"运动包配",
+        				"sport_part":["双肩包", "单肩包","斜挎包","袜子","球类","装备"]
+        				},
+        				{
+        				"sport_title":"热门品牌",
+        				"sport_part":["耐克", "阿迪达斯","三叶草","匡威","万斯","彪马","阿迪NEO","李宁","NB"]
+        				}
+       
+        				]
+    },
+    "nav4":
+    {
+        "title1":"男装/女装",
+        "title1_part":["冲锋衣","T恤","皮肤衣","休闲裤"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"热卖品牌",
+        				"sport_part":["乐斯菲斯","狼爪","CAT","哥伦比亚"]
+        				},      
+        				{
+        				"sport_title":"户外服装",
+        				"sport_part":["皮肤衣","长袖T恤","抓绒衣","冲锋衣","卫衣","休闲裤","羽绒服","速干裤"]
+        				},
+        				{
+        				"sport_title":"户外鞋靴",
+        				"sport_part":["登山鞋","徒步鞋","溯溪鞋","冲锋衣","休闲鞋","越野鞋","凉拖鞋"]
+        				},
+        				{
+        				"sport_title":"户外包配",
+        				"sport_part":["户外包","辅助工具","配件"]
+        				}
+        				]
+    },
+    "nav5":
+    {
+        "title1":"童鞋/童装/包配",
+        "title1_part":["户外","运动鞋","夹克","长裤","运动包"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"运动鞋",
+        				"sport_part":["跑步鞋","篮球鞋","板鞋","帆布鞋","训练鞋","休闲鞋","户外鞋"]
+        				},
+        
+        				{
+        				"sport_title":"运动服",
+        				"sport_part":["夹克","卫衣","羽绒服","棉服","长裤","紧身衣"]
+        				},
+        				{
+        				"sport_title":"运动包配",
+        				"sport_part":["双肩包","单肩包","斜挎包","袜子","球类","装备"]
+        				},
+        				{
+        				"sport_title":"热门品牌",
+        				"sport_part":["耐克","阿迪达斯","三叶草","匡威","万斯","彪马","阿迪NEO","李宁","NB"]
+        				}
+       
+        				]
+    },
+    "nav6":
+    {
+        "title1":"箱包/配饰",
+        "title1_part":["冲锋衣","T恤","皮肤衣","休闲裤"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"热卖品牌",
+        				"sport_part":["乐斯菲斯","狼爪","CAT","哥伦比亚"]
+        				},      
+        				{
+        				"sport_title":"户外服装",
+        				"sport_part":["皮肤衣","长袖T恤","抓绒衣","冲锋衣","卫衣","休闲裤","羽绒服","速干裤"]
+        				},
+        				{
+        				"sport_title":"户外鞋靴",
+        				"sport_part":["登山鞋","徒步鞋","溯溪鞋","冲锋衣","休闲鞋","越野鞋","凉拖鞋"]
+        				},
+        				{
+        				"sport_title":"户外包配",
+        				"sport_part":["户外包","辅助工具","配件"]
+        				}
+        				]
+    },
+     "nav7":
+    {
+        "title1":"首尔站",
+        "title1_part":["冲锋衣","T恤","皮肤衣","休闲裤"],
+        "title1_background":"img",
+        "title1_background_hover":"img",
+        "title1_class":[{
+        				"sport_title":"热卖品牌",
+        				"sport_part":["乐斯菲斯","狼爪","CAT","哥伦比亚"]
+        				},      
+        				{
+        				"sport_title":"户外服装",
+        				"sport_part":["皮肤衣","长袖T恤","抓绒衣","冲锋衣","卫衣","休闲裤","羽绒服","速干裤"]
+        				},
+        				{
+        				"sport_title":"户外鞋靴",
+        				"sport_part":["登山鞋","徒步鞋","溯溪鞋","冲锋衣","休闲鞋","越野鞋","凉拖鞋"]
+        				},
+        				{
+        				"sport_title":"户外包配",
+        				"sport_part":["户外包","辅助工具","配件"]
+        				}
+        				]
+    }
+}

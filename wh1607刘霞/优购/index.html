@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script  type="text/javascript" charset="utf-8" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="js/index.js">
+			
+		</script>
+		<script src="js/indexjson.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/header.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="background:#f8f8f8">
+	<!--头部公共样式1-->	
+	<div class="header_width">
+
+ 	<div class="header">
+ 		<ul class="header_1">
+ 			<li class="header_1_1"><a href="#">时尚商城</a></li>
+ 			<li  id="Korea"><a href="#">首尔站</a></li>
+ 		
+ 			<li id="mobile_phone">
+ 				<a href="#"><i class="icon_phone"><img src="img/iconphone.jpg"/></i>手机优购
+ 				</a>
+ 				<div class="ThinkChange">
+ 					<p><a href="#"><img src="img/thinkchange.png"/></a></p>
+ 					<p>下载安装<strong>优购客户端</strong></p>
+ 				</div>
+ 		</ul>
+ 		
+ 		<ul class="header_2">
+ 			<li style="margin-right:40px;"><a id="loginsuce" href="login.html">登录</a></li>
+ 			<li ><a href="login.html">注册</a></li>
+ 		</ul>
+ 		<ul class="header_3">
+ 			
+ 			<li class="my_yg" id="my_yougou"><a href="#" >我的优购</a>
+ 			<div class="my_yg_1">
+ 				<a href="#">我的收藏</a>
+ 			</div></li>
+ 			
+ 			<li><a href="#">我的订单</a></li>
+ 			<li id="notice" class="my_yg"><a href="#">公告</a>
+ 				<ul class="notice_list">
+ 					<li><a href="#">运动品牌集结五折起</a></li>
+ 					<li><a href="#">分享购官方微信</a></li>
+ 					<li><a href="#">分享购QQ群518411158</a></li>
+ 					<li><a href="#"> 关于跨境商品征税新政策调整</a></li>
+ 					<li><a href="#">提醒会员谨防诈骗电话</a></li>
+ 				</ul>
+ 			</li>
+ 			
+ 			<li id="headermore" class="my_yg"><a href="#">更多</a>
+ 				<div class="header_more">
+ 				<a href="#">收藏优购</a>
+ 				<a href="#">帮助</a>
+ 			</div>
+ 			</li>
+ 			
+ 		</ul>
+ 	</div>			
+</div>
+	
+		
+		
+	<!--头部公共样式2-->
+	<div class="logo_form">
+		<h1><img src="img/logo_n.png"/></h1>
+		<form action="" method="post">
+			<input type="text" name="" id="searcher" value="" />
+			
+			<input type="button" id="sub" value=""/>
+		</form>
+		<div id="indexShoppingCart">
+			<span class="cart_bg1">
+				<img src="img/cart.jpg"/>
+			</span>
+			<div class="cart_count">
+				购物车（<span id="shoppingcart-count">0</span>）件
+			</div>
+			<div class="shopping_station">
+			<a href="">百丽旗下购物网站</a>
+			</div>
+		</div>
+		<ul id="hot_search">
+			<li><a href="#" style="color:red">热销</a>|</li>
+			<li><a href="#">跑步鞋</a>|</li>
+			<li><a href="#">乐福鞋</a>|</li>
+			<li><a href="#">徒步鞋</a>|</li>
+			<li><a href="#">T恤</a>|</li>
+			<li><a href="#">衬衣</a>|</li>
+			<li><a href="#">小白鞋</a>|</li>
+			<li><a href="#">雪地靴</a></li>
+		</ul>
+	</div>
+
+	<!--nav导航样式-->
+	<div class="naver">
+		<ul class="navigation">
+			<li class="active"><a href="#">全部商品分类</a></li>
+			<li><a href="list.html">运动馆</a></li>
+			<li><a href="list.html">户外馆</a></li>
+			<li><a href="list.html">鞋靴馆</a></li>
+			<li><a href="list.html">母婴馆</a></li>
+			<li><a href="list.html">服装馆</a></li>
+			<li><a href="list.html">首尔站</a></li>
+		</ul>
+		<ul class="right_nav" style="background:#FFF;z-index: 10000;">
+			<li><a href="#fone">运动</a></li>
+			<li><a href="#ftwo">女鞋</a></li>
+			<li><a href="#fthree">户外</a></li>
+			
+			<li><a href="#ffive">母婴</a></li>
+			<li class="activer" ><a href="#ffour">首尔</a></li>
+			<li class="totop"><a href="#">top</a></li>
+		</ul>
+	</div>
+	
+	<!--banner-->
+	<div class="banner">
+		<ul class="left_nav" id="left_nav">
+			<li>	
+			</li>
+			<li>
+			</li>
+			<li>	
+			</li>
+			<li>
+			</li>
+			<li>
+			</li>
+			<li>
+			</li>
+			<li>
+			</li>
+		</ul>
+		<ul class="carousel">
+			<li class="active_banner"><a href="#"><img src="img/lunbo1.jpg"/></a></li>
+			<li><a href="#"><img src="img/lunbo2.jpg"/></a></li>
+			<li><a href="#"><img src="img/lunbo3.jpg"/></a></li>
+			<li><a href="#"><img src="img/lunbo4.jpg"/></a></li>
+			<li><a href="#"><img src="img/lunbo5.jpg"/></a></li>
+			<li><a href="#"><img src="img/lunbo6.jpg"/></a></li>
+		</ul>
+		<ul class="carousel_icon">
+			<li class="active_banner_icon"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+		</ul>
+	</div>
+
+	<h3>热门品牌<span>hot brand</span></h3>
+	<div class="hotbrand">
+		
+		<div class="hot">
+			<ul class="brandshow">
+				<li><a href="#"><img src="img/9228bbe69f1f4fc98ace4a7f0af84106.jpg"/></a></li>
+				<li><a href="#"><img src="img/81da3e259f73471295d1c0711c647117.jpg"/></a></li>
+				<li><a href="#"><img src="img/645d3143b3ee4582a38e8a199a6cc030.jpg"/></a></li>
+				<li><a href="#"><img src="img/b2e3b56dbae04f42829c9f22b650e218.jpg"/></a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			
+		</script>
+		<div id="container_1">
+			<span id="left_button">
+				<
+			</span>
+			<span id="right_button">
+				>
+			</span>
+			<div class="brindcontainer">
+				
+			
+			<ul class="brind_list" id="brind_list">
+				<li>
+					<a href="#"><img src="img/nike507646290.jpg"/></a>
+					<a href="#"><img src="img/adidas507638809.jpg"/></a>
+					<a href="#"><img src="img/adidasclassic507604745.jpg"/></a>
+					<a href="#"><img src="img/newbalance507610154.jpg"/></a>
+					<a href="#"><img src="img/converse506750560.jpg"/></a>
+					<a href="#"><img src="img/puma507639858.jpg"/></a>
+					<a href="#"><img src="img/belle507639379.jpg"/></a>
+					<a href="#"><img src="img/newbalance507610154.jpg"/></a>
+					<a href="#"><img src="img/converse506750560.jpg"/></a>
+					<a href="#"><img src="img/puma507639858.jpg"/></a><a href="#"><img src="img/tata510633928.png"/></a>
+					<a href="#"><img src="img/timberland507609698.jpg"/></a>
+					<a href="#"><img src="img/tanboer507606760.jpg"/></a>
+					<a href="#"><img src="img/columbia507642261.jpg"/></a>
+					<a href="#"><img src="img/hum506750357.jpg"/></a>
+					<a href="#"><img src="img/belle507639379.jpg"/></a>
+					<a href="#"><img src="img/newbalance507610154.jpg"/></a>
+					<a href="#"><img src="img/converse506750560.jpg"/></a>
+					<a href="#"><img src="img/puma507639858.jpg"/></a>
+					<a href="#"><img src="img/tata510633928.png"/></a>
+				</li>
+				<li>
+					<a href="#"><img src="img/tata510633928.png"/></a>
+					<a href="#"><img src="img/timberland507609698.jpg"/></a>
+					<a href="#"><img src="img/tanboer507606760.jpg"/></a>
+					<a href="#"><img src="img/columbia507642261.jpg"/></a>
+					<a href="#"><img src="img/hum506750357.jpg"/></a>
+					<a href="#"><img src="img/adidasclassic507604745.jpg"/></a>
+					<a href="#"><img src="img/newbalance507610154.jpg"/></a>
+					<a href="#"><img src="img/converse506750560.jpg"/></a>
+					<a href="#"><img src="img/puma507639858.jpg"/></a>
+					<a href="#"><img src="img/belle507639379.jpg"/></a>
+					<a href="#"><img src="img/tata510633928.png"/></a>
+					<a href="#"><img src="img/timberland507609698.jpg"/></a>
+					<a href="#"><img src="img/tanboer507606760.jpg"/></a>
+					<a href="#"><img src="img/hum506750357.jpg"/></a>
+					<a href="#"><img src="img/belle507639379.jpg"/></a>
+					<a href="#"><img src="img/newbalance507610154.jpg"/></a>
+					<a href="#"><img src="img/converse506750560.jpg"/></a>
+					<a href="#"><img src="img/puma507639858.jpg"/></a>
+					<a href="#"><img src="img/columbia507642261.jpg"/></a>
+					<a href="#"><img src="img/hum506750357.jpg"/></a>
+				</li>
+			</ul>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+	<div class="main">
+		
+		<!--
+        	作者：offline
+        	时间：2016-12-08
+        	描述：楼梯
+        -->
+		
+		
+		
+		
+		
+		
+	</div>
+	
+	
+	
+<!--
+	作者：offline
+	时间：2016-12-07
+	描述：选项卡
+-->
+	<div class="tab_brind">
+		<ul class="tabtab">
+			<li class="activetab"><a href="#">户外区<i>></i></a></li>
+			<li><a href="#">运动馆<i>></i></a></a></li>
+			<li><a href="#">鞋靴馆<i>></i></a></a></li>
+			<li><a href="#">男装馆<i>></i></a></a></li>
+			<li><a href="#">女装馆<i>></i></a></a></li>
+			<li><a href="#">母婴馆<i>></i></a></a></li>
+			<li><a href="#">箱包馆<i>></i></a></a></li>
+		</ul>
+		<ul class="fortab">
+		<li class="tabshow">
+			<dl>
+				<dt><a href="#"><img src="img/100492349_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+			<dl>
+				<dt><a href="#"><img src="img/100492354_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/f1.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100488617_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100217474_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100488617_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100491911_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100483316_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100476956_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100477754_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100481811_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100476956_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100159733_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100357113_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100101055_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100103333_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100492349_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100492354_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/f1.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100488617_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100008300_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100492354_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/f1.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100488617_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+		<li>
+			<dl>
+				<dt><a href="#"><img src="img/100159733_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100174135_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100064452_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			<dl>
+				<dt><a href="#"><img src="img/100064452_01_mb.jpg"/><b>限时抢购￥2150</b></a></dt>
+				<dd><a href="#">The North Face乐斯菲斯 2016专柜同款男子羽绒服2UBNLFP</a></dd>
+				<dd>¥2150<i>¥3498</i></dd>
+			</dl>
+			
+		</li>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	<!--底部公共样式2-->
+	<!--<div class="footer_2">
+		<p>优购导购</p>
+		<div class="friendship">
+			
+		</div>
+	</div>-->
+	
+	<!--底部公共样式3-->
+	<div class="footer_3">
+		<ul class="serives">
+			<li><img src="img/zhengpin.jpg"/>正品<a href="#">保障</a></li>
+			<li><img src="img/10tiantuihuo.jpg"/>10天<a href="#">退换货</a></li>
+			<li><img src="img/buchae.jpg"/>10天调价<a href="#">补差额</a></li>
+			<li><img src="img/24xiaoshi.jpg"/>7*24小时<a href="#">在线客服</a></li>
+		</ul>
+		<div class="about_down">
+			<dl>
+				<dt>新手帮助</dt>
+				<dd><a href="#">交易条款协议</a></dd>
+				<dd><a href="#">注册新用户</a></dd>
+				<dd><a href="#">会员积分详情</a></dd>
+			</dl>
+			<dl>
+				<dt>购物指南</dt>
+				<dd><a href="#">订购流程</a></dd>
+				<dd><a href="#">验货与签收</a></dd>
+				<dd><a href="#">订单配送查询</a></dd>
+			</dl>
+			<dl>
+				<dt>支付/配送</dt>
+				<dd><a href="#">支付方式</a></dd>
+				<dd><a href="#">配送方式</a></dd>
+				<dd><a href="#">配送时间</a></dd>
+			</dl>
+			<dl>
+				<dt>售后服务</dt>
+				<dd><a href="#">退换货政策</a></dd>
+				<dd><a href="#">退款说明</a></dd>
+				<dd><a href="#">发票制度</a></dd>
+			</dl>
+			<dl>
+				<dt>会员服务</dt>
+				<dd><a href="#">找回密码</a></dd>
+				<dd><a href="#">联系我们</a></dd>
+			</dl>
+			<dl>
+				<dt>优购客服</dt>
+				<dd><a href="#"><img src=""/>在线咨询</a></dd>
+				<dd>Email：<span>@yougou.com</span></dd>
+				<dd>分享购QQ群：<span>518411158</span></dd>
+				<dd>分享购微信号：<span>youyoufenxianggou</span></dd>
+			</dl>
+		</ul>
+		</div>
+	</div>
+	
+	<!--底部公共样式4-->
+	<div class="footer_4">
+		<div class="footer_44">
+			<ul class="about_yg">
+				<li><a href="#">关于优购</a>|</li>
+				<li><a href="#">集团采购</a>|</li>
+				<li><a href="#">招贤纳士</a>|</li>
+				<li><a href="#">手机优购</a>|</li>
+				<li><a href="#">联系我们</a>|</li>
+				<li><a href="#">品牌大全</a>|</li>
+				<li><a href="#">网站地图</a>|</li>
+				<li><a href="#">销售排行</a>|</li>
+				<li><a href="#">优购资讯</a>|</li>
+				<li><a href="#">网站联盟</a>|</li>
+				<li><a href="#">友情链接</a>|</li>
+			</ul>
+			<p class="filing">
+Copyright © 2011-2016 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证： 粤 B2-20090203 深公网安备：4403101910665 粤公网安备 44030502000017号 
+			</p>
+			<ul class="check_yg">
+				<li><a href="#"><img src="img/shiming.jpg"/></a></li>
+				<li><a href="#"><img src="img/gongshang.jpg"/></a></li>
+				<li><a href="#"><img src="img/beian.jpg"/></a></li>
+				<li><a href="#"><img src="img/zhongxin.jpg"/></a></li>
+				<li><a href="#"><img src="img/tixingwangluo.jpg"/></a></li>
+			</ul>
+		</div>
+	</div>	
+  	
+	<div class="bottom_fixed bg_fixed">
+	<div class="wrap946">
+		<div class="fl">
+			<img src="img/er_wei_ma__03.png" alt=""> 
+		</div>
+		<div class="app-btn fr mt30">
+			<a href="#" class="ipone-app" target="_blank"><img src="img/阿nios.png"/></a> <a href="#" class="and-app" target="_blank"></a> 
+		</div>
+		<div class="erweima-bj">
+			<img src="img/er_wei_ma__03_1.png" alt="" height="224" width="224"> <a href="javascript:;" id="app-closed"><img src="img/close.png" alt=""></a> 
+		</div>
+	</div>
+<script>
+        $("#app-closed").click(function(){
+            $(".bottom_fixed").hide();
+        })
+    </script>
+</div>
+	</body>
+</html>
